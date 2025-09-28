@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Navigation } from "@/components/navigation"
+import { AppNavigation } from "@/components/app-navigation"
 import { CircleDiscovery } from "./circle-discovery"
 import { MyCircles } from "./my-circles"
 import { CircleDetails } from "./circle-details"
@@ -61,7 +61,7 @@ export function InnerCircles() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
+      <AppNavigation />
 
       <div className="pt-20 mobile-safe mobile-safe-bottom">
         <div className="py-6">{renderView()}</div>

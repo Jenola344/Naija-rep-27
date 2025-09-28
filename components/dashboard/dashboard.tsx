@@ -4,12 +4,12 @@ import { RepScoreCard } from "./rep-score-card"
 import { QuickActions } from "./quick-actions"
 import { ActivityFeed } from "./activity-feed"
 import { AchievementBadges } from "./achievement-badges"
-import { Navigation } from "@/components/navigation"
+import { AppNavigation } from "@/components/app-navigation"
 
 export function Dashboard() {
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
+      <AppNavigation />
 
       <div className="pt-20 mobile-safe mobile-safe-bottom">
         <div className="space-y-6 py-6">

@@ -1,7 +1,7 @@
 "use client"
 
 import { useState } from "react"
-import { Navigation } from "@/components/navigation"
+import { AppNavigation } from "@/components/app-navigation"
 import { ContactSelector } from "./contact-selector"
 import { SkillSelector } from "./skill-selector"
 import { VouchComposer } from "./vouch-composer"
@@ -103,7 +103,7 @@ export function VouchInterface() {
 
   return (
     <div className="min-h-screen bg-background">
-      <Navigation />
+      <AppNavigation />
 
       <div className="pt-20 mobile-safe mobile-safe-bottom">
         {/* Progress Indicator */}
